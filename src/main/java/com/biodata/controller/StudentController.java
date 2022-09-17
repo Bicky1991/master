@@ -14,6 +14,7 @@ public class StudentController {
     @Autowired
     public StudentService studentService;
 
+    //Get All Student Details
     @GetMapping("getDetails")
     public ResponseEntity<?> getAllDetails()
     {
